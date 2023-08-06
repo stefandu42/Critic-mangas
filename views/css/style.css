@@ -1,0 +1,172 @@
+body,html{
+    margin: 0%;
+}
+#homeBackground{
+    background-image: url("../images/background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    height: 100%;
+}
+
+html{
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+}
+
+#font-header{
+    font-family: 'Trirong', serif;
+}
+
+.accueil{
+    text-align: center;
+    padding-top: 22%;
+}
+
+.bg-blue{
+    background-color: rgb(66,113,140);
+}
+
+.backgroundGray{
+    background-color: rgba(0,0,0,0.7);
+}
+
+#profil{
+    margin-left: 20px;
+}
+#titleProfil{
+    text-align: center;
+}
+
+.contentPage{
+    margin-top: 40px;
+    margin-bottom: 110px;
+}
+
+@media screen and (max-width: 1024px) {
+    .contentPage {
+        margin-bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .contentPage {
+        margin-bottom: 200px;
+    }
+}
+
+#picProfil{
+    margin-left: 30px;
+}
+
+#titleIdea{
+    font-family: 'Bangers', cursive;
+}
+
+.websiteFont{
+    font-family: 'Quattrocento', serif;
+}
+
+.titleIdeas a{
+    color: #F0F8FF;
+    text-decoration: none;
+}
+
+.titleIdeas a:hover{
+    color: wheat;
+    text-decoration: none;
+}
+
+.cursor{
+    cursor: default;
+}
+
+.thumb{
+    width: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+    .thumb {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .thumb {
+        width: 60px;
+    }
+}
+
+.status-size{
+    width: 300px;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .status-size {
+        width: 250px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .status-size {
+        width: 260px;
+        font-size: 25px;
+    }
+}
+
+
+.field{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-size: 2em;
+}
+.buttonsFlex{
+    display: flex;
+    justify-content: space-around;
+}
+#divTable {
+    background-color: #eee;
+    width: 80%;
+    height: 300px;
+    border: 1px dotted black;
+    overflow-x: auto;
+    overflow-y: scroll;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.green{
+    color: darkgreen;
+}
+.red{
+    color: red;
+}
+.purple{
+    color: #582758;
+}
+.grey{
+    color: dimgrey;
+}
